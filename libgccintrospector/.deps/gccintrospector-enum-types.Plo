@@ -1,0 +1,4 @@
+gccintrospector-enum-types.lo: gccintrospector-enum-types.c \
+ gccintrospector.h
+
+gccintrospector.h:

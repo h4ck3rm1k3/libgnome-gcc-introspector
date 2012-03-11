@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgccintrospector-0.1
+Description: a glib-based gcc introspector lib
+Version: 0.1
+Requires: glib-2.0 gobject-2.0 gio-2.0
+Requires.private: 
+Libs: -L${libdir} -lgccintrospector-0.1
+Cflags: -I${includedir}/gccintrospector-0.1
